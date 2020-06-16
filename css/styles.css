@@ -1,0 +1,142 @@
+body {
+	background-color: #bbeef1;
+    background-image: url(../img/Toys_Little_girls_Boys_Infants_Joy_Three_3_526219_1920x1080.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+	color: #fff;
+	font-family: "Helvetica Neue", sans-serif;
+    margin: 0;
+}  .container_12{ position: center; width: 960px; margin: 0 auto; padding: 0; }
+	.grid_1,
+	.grid_2,
+	.grid_3,
+	.grid_4,
+	.grid_5,
+	.grid_6,
+	.grid_7,
+	.grid_8,
+	.grid_9,
+	.grid_10,
+	.grid_11,
+	.grid_12
+  { float: left; display: inside; margin-left: 10px; margin-right: 10px; }
+  
+
+
+
+  body {
+    margin: 0;
+    padding:0;
+    font-family: Arial, Tahoma, Verdana, Sans-serif;
+    font-size: 14px;
+    line-height: 1.6em;
+    color: rgb(0, 0, 0);
+    background-color: #f1f2f3;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #d7eeea;
+    background-color: #b8d4c7;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #ddd;
+  }
+  
+  li a.active {
+    color: white;
+    background-color: rgb(48, 125, 177);
+  }
+
+
+section#intro {
+	background: #000 url(../img/mapa.jpg) 50% 0 no-repeat;
+	position:relative;
+	width:100%;
+	height:auto;
+	margin:0;
+	padding:100px 0 150px;
+}
+
+@media (min-width: 1024px) {
+	section#intro {
+		background-attachment: fixed;
+	}
+}
+
+section#intro  {
+	text-align:center;
+}
+
+section#intro h1  {
+	color:#fff;
+	font-size:75px;
+	font-weight:700;
+}
+
+
+h3 {
+    font-size: 40px;
+}
+
+h4 {
+	font-size:20px;
+}
+
+.borda_texto{
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: #000;
+	font-size: 3em; color: #fffdd9;
+	}
+
+.bordinha{
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: rgb(49, 116, 192);
+	font-size: 1em; color: #478bb8;
+  }
+  
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height:1.1em;
+    color: #3a3a3a;
+    font-weight:150;
+    margin-bottom:10px;
+    }
+
+
+.cabecalho {
+    text-align:center;
+    width:100%;
+    }
+
+.ncabecalho {
+    text-align:left;
+    margin:30px 50px 30px 205px;
+    }
+
+        
+footer{
+	float:left;
+	width:100%;
+	background:#ffffff;
+	color:rgb(255, 255, 255);
+	margin:0;
+	padding:15px 0 0 0;
+}
